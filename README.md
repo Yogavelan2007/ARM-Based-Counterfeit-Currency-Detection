@@ -91,5 +91,5 @@ CounterfeitDetector_Project/
 
 ## Author
 
-**Yogavelan M. D.**
+**Yogavelan M D**
 
