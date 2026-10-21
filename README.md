@@ -69,21 +69,14 @@ The project demonstrates a basic sensor-based currency screening prototype.
 CounterfeitDetector_Project/
 ├── Core/
 │   ├── Inc/
-│   │   ├── main.h
-│   │   └── tcs34725.h
-│   ├── Src/
-│   │   ├── main.c
-│   │   └── tcs34725.c
-│   └── Startup/
+│   └── Src/
 ├── Drivers/
 │   ├── CMSIS/
 │   └── STM32F4xx_HAL_Driver/
 ├── CounterfeitDetector_Project.ioc
-├── STM32F411CEUX_FLASH.ld
-├── STM32F411CEUX_RAM.ld
 ├── .project
 ├── .cproject
-└── .gitignore
+└── README.md
 ```
 
 ## Build and Flash
