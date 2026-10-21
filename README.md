@@ -2,7 +2,6 @@
 
 An embedded systems project using the **STM32F411CEU6 ARM Cortex-M4 microcontroller** and optical sensors to analyze currency-note characteristics and indicate whether a sample is consistent with predefined reference readings.
 
-
 ## Project Overview
 
 The system reads RGB color information from a TCS34725 color sensor and uses an infrared (IR) sensor to detect the presence of a sample. The STM32 processes the sensor readings and indicates the result using an RGB LED.
@@ -27,7 +26,7 @@ The system reads RGB color information from a TCS34725 color sensor and uses an 
 
 ## Pin Connections
 
-| Component | Signal | STM32F411CEU6 pin |
+| Component | Signal | STM32F411CEU6 Pin |
 |---|---|---|
 | TCS34725 | SCL | PB6 |
 | TCS34725 | SDA | PB7 |
@@ -35,7 +34,6 @@ The system reads RGB color information from a TCS34725 color sensor and uses an 
 | RGB LED | Red | PA5 |
 | RGB LED | Green | PA6 |
 | RGB LED | Blue | PA7 |
-
 
 ## Software and Tools
 
@@ -48,12 +46,12 @@ The system reads RGB color information from a TCS34725 color sensor and uses an 
 ## Working Principle
 
 1. The IR sensor detects the presence of a sample.
-2. The TCS34725 measures red, green, blue and clear-channel light values.
+2. The TCS34725 measures red, green, blue, and clear-channel light values.
 3. The STM32 reads the sensor data over I²C.
 4. The firmware compares the readings against the configured reference criteria.
 5. The RGB LED indicates the firmware's classification result.
 
-The classification depends on the reference values and thresholds configured in the firmware. Performance may vary with lighting, sensor positioning, note condition and other environmental factors.
+The classification depends on the reference values and thresholds configured in the firmware. Performance may vary with lighting, sensor positioning, note condition, and other environmental factors.
 
 ## Results
 
@@ -76,6 +74,9 @@ CounterfeitDetector_Project/
 ├── CounterfeitDetector_Project.ioc
 ├── .project
 ├── .cproject
+├── .mxproject
+├── STM32F411CEUX_FLASH.ld
+├── STM32F411CEUX_RAM.ld
 └── README.md
 ```
 
@@ -89,8 +90,6 @@ CounterfeitDetector_Project/
 6. Connect the STM32F411CEU6 board through ST-LINK.
 7. Flash the firmware and test the sensors and LED indicators.
 
-
 ## Author
 
 **Yogavelan M D**
-
