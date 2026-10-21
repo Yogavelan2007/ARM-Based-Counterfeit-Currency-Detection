@@ -63,7 +63,6 @@ The project demonstrates a basic sensor-based currency screening prototype.
 
 ## Project Structure
 
-```text
 CounterfeitDetector_Project/
 ├── Core/
 │   ├── Inc/
@@ -77,8 +76,8 @@ CounterfeitDetector_Project/
 ├── .mxproject
 ├── STM32F411CEUX_FLASH.ld
 ├── STM32F411CEUX_RAM.ld
+├── .gitignore
 └── README.md
-```
 
 ## Build and Flash
 
