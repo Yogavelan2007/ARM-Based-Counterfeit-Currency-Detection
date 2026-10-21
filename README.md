@@ -68,7 +68,8 @@ The project demonstrates a basic sensor-based currency screening prototype.
 CounterfeitDetector_Project/
 ├── Core/
 │   ├── Inc/
-│   └── Src/
+│   ├── Src/
+│   └── Startup/
 ├── Drivers/
 │   ├── CMSIS/
 │   └── STM32F4xx_HAL_Driver/
