@@ -55,6 +55,14 @@ The system reads RGB color information from a TCS34725 color sensor and uses an 
 
 The classification depends on the reference values and thresholds configured in the firmware. Performance may vary with lighting, sensor positioning, note condition and other environmental factors.
 
+## Results
+
+- The system reads sensor data using the STM32 microcontroller.
+- The programmed logic processes the sensor readings.
+- RGB LED indicators provide visual feedback based on the detection result.
+
+The project demonstrates a basic sensor-based currency screening prototype.
+
 ## Project Structure
 
 ```text
